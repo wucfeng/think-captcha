@@ -1,7 +1,7 @@
 {
     "name": "wucfeng/think-captcha",
     "description": "captcha package for thinkphp5",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
@@ -15,5 +15,10 @@
     ],
     "require": {
         "topthink/framework": "5.1.*"
+    },
+    "config": {
+        "allow-plugins": {
+            "topthink/think-installer": false
+        }
     }
 }
