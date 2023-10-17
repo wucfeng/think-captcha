@@ -1,0 +1,15 @@
+{
+    "name": "wucfeng/think-captcha",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wucfeng\\ThinkCaptcha\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wucfeng"
+        }
+    ],
+    "require": {}
+}
