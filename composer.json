@@ -12,5 +12,7 @@
             "name": "wucfeng"
         }
     ],
-    "require": {}
+    "require": {
+        "wucfeng/think-captcha": "^1.0"
+    }
 }
