@@ -13,6 +13,6 @@
         }
     ],
     "require": {
-        "wucfeng/think-captcha": "^1.0"
+        "topthink/framework": "5.1.*"
     }
 }
