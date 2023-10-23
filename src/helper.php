@@ -24,7 +24,7 @@
  */
 function captcha($id = '', $config = [])
 {
-    $captcha = new \think\captcha\Captcha($config);
+    $captcha = new \wucfeng\Captcha($config);
     return $captcha->entry($id);
 }
 
@@ -54,6 +54,6 @@ function captcha_img($id = '')
  */
 function captcha_check($value, $id = '')
 {
-    $captcha = new \think\captcha\Captcha((array) Config::pull('captcha'));
+    $captcha = new \wucfeng\Captcha((array) Config::pull('captcha'));
     return $captcha->check($value, $id);
 }
