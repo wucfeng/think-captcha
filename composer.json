@@ -3,7 +3,7 @@
     "description": "captcha package for thinkphp5",
     "license": "Apache-2.0",
     "minimum-stability": "stable",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "autoload": {
         "psr-4": {
             "wucfeng\\think-captcha\\": "src/"
