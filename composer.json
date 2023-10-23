@@ -16,9 +16,18 @@
     "require": {
         "topthink/framework": "5.1.*"
     },
+    "require-dev": {
+        "topthink/framework": "5.1.*"
+    },
     "config": {
         "allow-plugins": {
             "topthink/think-installer": false
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.org"
         }
     }
 }
